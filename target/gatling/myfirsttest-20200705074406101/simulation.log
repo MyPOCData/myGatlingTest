@@ -1,0 +1,4 @@
+RUN	simulations.MyFirstTest	myfirsttest	1593935046101	 	3.3.1
+USER	My First Test	1	START	1593935048977	1593935048977
+REQUEST	1		Get All Emp	1593935049007	1593935052053	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8888
+USER	My First Test	1	END	1593935048977	1593935052065

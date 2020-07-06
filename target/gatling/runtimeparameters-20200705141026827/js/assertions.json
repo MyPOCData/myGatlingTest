@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.RuntimeParameters",
+  "simulationId": "runtimeparameters",
+  "start": 1593958226827,
+  "description": "",
+  "scenarios": ["Get Emp"],
+  "assertions": [
+
+  ]
+}

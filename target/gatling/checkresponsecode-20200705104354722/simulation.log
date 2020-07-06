@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseCode	checkresponsecode	1593945834722	 	3.3.1
+USER	RestAPI Emp - 3 calls	1	START	1593945837049	1593945837049
+REQUEST	1		Get All Emp - Call 1	1593945837084	1593945840189	KO	status.find.is(200), but actually found 406
+REQUEST	1		Get specific Emp - Call 2	1593945845224	1593945845244	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,210), but actually found 406
+REQUEST	1		Get All Emp - Call 3	1593945849624	1593945849645	OK	 
+USER	RestAPI Emp - 3 calls	1	END	1593945837049	1593945852645

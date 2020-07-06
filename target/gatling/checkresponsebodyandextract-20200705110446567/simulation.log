@@ -1,0 +1,6 @@
+RUN	simulations.CheckResponseBodyAndExtract	checkresponsebodyandextract	1593947086567	 	3.3.1
+USER	Check JSON Path	1	START	1593947088891	1593947088891
+REQUEST	1		Get specific Emp	1593947088918	1593947092068	OK	 
+REQUEST	1		Get all Emp	1593947092152	1593947092160	OK	 
+REQUEST	1		Get specific Emp	1593947092178	1593947092185	KO	jsonPath($.name).find.is(Amit), but actually found nothing
+USER	Check JSON Path	1	END	1593947088891	1593947092194

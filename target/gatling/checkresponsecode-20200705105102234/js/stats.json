@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 3,
+        "ok": 3,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 1039,
+        "ok": 1039,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 1444,
+        "ok": 1444,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 1552,
+        "ok": 1552,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 2775,
+        "ok": 2775,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3020,
+        "ok": 3020,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 2,
+    "percentage": 67
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 33
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.10714285714285714,
+        "ok": 0.10714285714285714,
+        "ko": 0
+    }
+},
+"contents": {
+"req_get-all-emp---c-22391": {
+        "type": "REQUEST",
+        "name": "Get All Emp - Call 1",
+"path": "Get All Emp - Call 1",
+"pathFormatted": "req_get-all-emp---c-22391",
+"stats": {
+    "name": "Get All Emp - Call 1",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3081,
+        "ok": 3081,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.03571428571428571,
+        "ok": 0.03571428571428571,
+        "ko": 0
+    }
+}
+    },"req_get-specific-em-aa08c": {
+        "type": "REQUEST",
+        "name": "Get specific Emp - Call 2",
+"path": "Get specific Emp - Call 2",
+"pathFormatted": "req_get-specific-em-aa08c",
+"stats": {
+    "name": "Get specific Emp - Call 2",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 22,
+        "ok": 22,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.03571428571428571,
+        "ok": 0.03571428571428571,
+        "ko": 0
+    }
+}
+    },"req_get-all-emp---c-88dbc": {
+        "type": "REQUEST",
+        "name": "Get All Emp - Call 3",
+"path": "Get All Emp - Call 3",
+"pathFormatted": "req_get-all-emp---c-88dbc",
+"stats": {
+    "name": "Get All Emp - Call 3",
+    "numberOfRequests": {
+        "total": 1,
+        "ok": 1,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 0,
+        "ok": 0,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 13,
+        "ok": 13,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1,
+    "percentage": 100
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 0.03571428571428571,
+        "ok": 0.03571428571428571,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

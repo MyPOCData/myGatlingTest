@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CheckResponseCode",
+  "simulationId": "checkresponsecode",
+  "start": 1593945834722,
+  "description": "",
+  "scenarios": ["RestAPI Emp - 3 calls"],
+  "assertions": [
+
+  ]
+}
