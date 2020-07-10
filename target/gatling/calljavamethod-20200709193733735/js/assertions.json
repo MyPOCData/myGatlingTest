@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CallJavaMethod",
+  "simulationId": "calljavamethod",
+  "start": 1594323453735,
+  "description": "",
+  "scenarios": ["Call Java Method"],
+  "assertions": [
+
+  ]
+}
