@@ -25,4 +25,5 @@ https://github.com/MyPOCData/springBootRESTMongo
   * 12 RuntimeParameters.scala
   
 * Ref : https://www.james-willett.com/gatling-load-testing-complete-guide/#2-gatling-recorder
+* For Simulation : https://gatling.io/docs/current/general/simulation_setup
 
