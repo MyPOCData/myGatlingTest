@@ -9,7 +9,7 @@ class FixedDurationLoadSimulation extends Simulation{
   val httpConf = http.baseUrl("http://localhost:9091/")
     .header("Accept", "application/json")
 
-  def getAllVideoGames() = {
+  def getAllEmp() = {
     exec(
       http("Get all Emp")
         .get("employees")
@@ -17,7 +17,7 @@ class FixedDurationLoadSimulation extends Simulation{
     )
   }
 
-  def getSpecificGame() = {
+  def getSpecificEmp() = {
     exec(
       http("Get Specific Emp")
         .get("employees/Abhinav")
@@ -27,11 +27,11 @@ class FixedDurationLoadSimulation extends Simulation{
 
   val scn = scenario("Fixed Duration Load Simulation")
     .forever() {
-      exec(getAllVideoGames())
+      exec(getAllEmp())
         .pause(5)
-        .exec(getSpecificGame())
+        .exec(getSpecificEmp())
         .pause(5)
-        .exec(getAllVideoGames())
+        .exec(getAllEmp())
     }
 
   setUp(
